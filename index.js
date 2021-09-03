@@ -30,7 +30,7 @@ let day4 = document.querySelector("#day4");
 let day5 = document.querySelector("#day5");
 let shortTermForecast = ["day1", "day2", "day3", "day4", "day5"];
 
-for (var i = 1, n = 0; i < 6; i++, n++) {
+for (var i = 1, n = 0; i < 6, n < 6; i++, n++) {
   let counter = now.getDay() + i;
 
   shortTermForecast[n].innerHTML = weekdays[counter];
